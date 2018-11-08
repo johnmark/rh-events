@@ -1,0 +1,36 @@
+name: RDO Meetups
+type: series
+tags: RDO
+
+talks:
+
+- title: "1st VietOpenStack Webinar - How to contribute to Openstack?"
+  location: Ha Noi, VN
+  speaker: Vietnam OpenStack Official User Group
+  start: 2018-11-05 15:00 UTC
+  end: 2018-11-05 16:00 UTC
+  description: |
+      Ha Noi, VN
+      "1st VietOpenStack Webinar - How to contribute to Openstack?"
+      https://www.meetup.com/VietOpenStack/events/256002826/
+
+- title: OpenStack Meetup Berlin - Pre-Summit
+  location: Berlin, DE
+  speaker: OpenStack User Group Berlin
+  start: 2018-11-06 18:30 UTC
+  end: 2018-11-06 19:30 UTC
+  description: |
+      Berlin, DE
+      OpenStack Meetup Berlin - Pre-Summit
+      https://www.meetup.com/OpenStack-User-Group-Berlin/events/255488207/
+
+- title: OpenStack Summit Berlin
+  location: Amersfoort, NL
+  speaker: OpenStack Netherlands
+  start: 2018-11-13 09:00 UTC
+  end: 2018-11-13 10:00 UTC
+  description: |
+      Amersfoort, NL
+      OpenStack Summit Berlin
+      https://www.meetup.com/Openstack-nl/events/254879844/
+

@@ -1,0 +1,145 @@
+name: linux.conf.au
+location: Hobart, Australia
+start: 2017-01-16
+end: 2017-01-20
+tags: RDO, CentOS, ManageIQ, Fedora, ovirt
+description: |
+  linux.conf.au is the largest linux and open source conference in the Asia-Pacific region. Run annually since 1999, it brings together the Australian, New Zealand and international community for standout presentations, demonstrations and relationship building. It is a deeply technical conference and pre-emininent practitioners in the field, both professionals and hobbyists, are expected to attend.
+
+  Additional details about the conference are available at
+  <http://http://hobart.lca2017.org/>.
+talks:
+
+- title: Almost Open - Just close the door behind you 
+  speaker: Steven Ellis
+  start: 2017-01-16 11:30 AEDT
+  end: 2017-01-16 12:20 AEDT
+  room:  Tasman Hall B/C
+  track: Open Knowledge Mini-Conf
+  description: |
+    We are potentially at an interesting tipping point in the future of Free and Open Source software as more of our interactions are managed by services rather than applications. Does Open Source have a future or are we pivoting towards a services based ecosystem where the best we can hope for is some degree of Open Standards? These open standards have no specific entity tasked with defining each of them, yet every day we hear about Open Hardware, Open Government, Open APIs.
+    What does Open mean within the ecosystem you operate within, and how can we continue to be a catalyst for the journey and grow the Open Source movement when so many closed outcomes are being produced from the Open Source ecosystem?
+    This is a collaborative session to look unpack the issue and formulate some actions that can be used by the attendees within their communities, businesses and organisations.
+
+- title: Building My Own Little World with Open Data
+  speaker: Steven Pousty
+  start: 2017-01-16 14:10 AEDT
+  end: 2017-01-16 15:00 AEDT
+  room:  Tasman Hall B/C
+  track: Open Knowledge Mini-Conf
+  description: |
+    Everybody cares about the place (they live, they grew up in, they had a great vacation, in the news….). With the rise of open data, big data tooling, and new visualisation technology, we can actually now build applications that give people new ways to explore beyond “where is the closest Starbucks”. I have collected Open Data from my home town (Santa Cruz, CA) and compiled it into the beginnings of a visualization and analysis platform. The goal of this talk is to show the process of collecting open data from disparate sources, some of the caveats on being able to put them together, general lessons learned, and some fun visualizations. I want to move past thinking about sources for open data and moving on to tools and lessons so you can get cracking! I want to show how we can enable people to gather open data and turn it to open knowledge. Data sources will be from Government (e.g. United States Geologic Survey) and Non-Government sources (e.g Audubon Society eBird Data) while some of the tools covered will be Apache Spark, PostGIS, Leaflet, and various others.
+
+- title: Turtles all the way down - Thin LVM + KVM tips and Tricks
+  speaker: Steven Ellis
+  start: 2017-01-16 15:50 AEDT
+  end: 2017-01-16 16:10 AEDT
+  room:  Plenary Hall
+  track: Sysadmin Mini-Conf
+  description: |
+    Tips and tricks for both operators and developers to get the most out of ThinLVM and KVM when building demo environments, or optimising real world business solutions.
+
+- title: Mamas Don't Let Your Babies Grow Up to Be Rock Star Developers
+  speaker: Rikki Endsley
+  start: 2017-01-16 16:35 AEDT
+  end: 2017-01-16 17:20 AEDT
+  room:  Tasman Hall A
+  track: WOOTConf
+  description: |
+    Are you sick of seeing job listings calling for "rock star developers"? What does that even mean? Developers who get the glory, while the band, agent, road crew, and sound engineers do the work? Instead of being a one-hit wonder who crashes and burns by 27, look to Willie Nelson for inspiration. Willie's 60+ years in the music business offer plenty of lessons developers can apply to their own careers. Attend this fun talk to see how collaborating with a diverse mix of peo ple, learning new skills, choosing the best tool for the job (and then improving on it), contributing to a range of communities, and not being afraid to fail have benefited Willie's career. The talk will be fun, but the lessons are practical for developers--and people who work with them--of all experience levels.
+
+- title: Preventing Deserialization attacks in Java applications
+  speaker: Jason Shepherd
+  start: 2017-01-17 11:15 AEDT
+  end: 2017-01-17 11:45 AEDT
+  room:  Plenary Hall
+  track: Security and Privacy Mini-Conf
+  description: |
+    Recent research by Chris Frohoff and Gabriel Lawrence has exposed gadget chains in various libraries that allow code to be executed during object deserialization in Java. They've done some excellent research, including publishing some code that allows anyone to serialize a malicious payload that when deserialized runs the operating system command of their choice, as the user which started the Java Virtual Machine (JVM). The vulnerabilities are not with the gadget chains themselves but with the code that deserializes them.
+    There are couple of ways in which this type of attack on the JVM can be mitigated:
+    - not deserializing untrusted objects;
+    - not having the classes used in the 'gadget chain' in the classpath;
+    - running the JVM as a non-root operating system user, with reduced privileges;
+    - egress filtering not allowing any outbound traffic other than that matching a connection for which the firewall already has an existing state table entry.
+    In this talk we'll explore each of these in detail, using JBoss EAP as a example of how these mitigations can be introduced.
+
+- title: FreeIPA project update (turbo talk)
+  speaker: Fraser Tweedale 
+  start: 2017-01-17 16:50 AEDT
+  end: 2017-01-17 17:00 AEDT
+  room:  Plenary Hall
+  track: Security and Privacy Mini-Conf
+  description: |
+    This turbo talk will cover advances in FreeIPA over the past two years
+
+- title: A Layperson's Guide for Talking about Free Software Law
+  speaker: Rikki Endsley
+  start: 2017-01-17 16:50 AEDT
+  end: 2017-01-17 17:15 AEDT
+  room:  Tasman Hall A
+  track: Law and Policy Mini-Conf
+  description: |
+    Whether you're a layperson talking about free software law, or a lawyer speaking to a layperson, how you deliver your message determines how well your audience understands it. In this talk we'll look at common mistakes laypeople make when interpreting legal issues, and tips for legal experts for condensing and explaining complicated topics to the layperson. We'll also take a quick look at hot free software law and policy topics, the kinds of people writing about them (e.g., lawyers vs. programmers), and what's missing (i.e., the topics community members want to learn more about).
+
+
+- title: Why haven't you licensed your project?
+  speaker: Richard Fontana
+  start: 2017-01-18 13:20 AEDT
+  end: 2017-01-18 14:05 AEDT
+  room:  Wellington Room 1
+  track: 
+  description: |
+    During the past few years, some have argued that we are living in a "post-open source software" ("POSS") era, characterized by a new generation of developers who work on public software projects without any effort to indicate licensing or any regard to project governance. One view is that this represents an increase in carelessness or legal misunderstanding among developers. However, others have suggested that this behavior may be a deliberate reaction against the "permission culture" inherent in traditional approaches to open source. GitHub has been blamed for this phenomenon and it has taken some measures to address it.  This talk will explore some legal and policy issues surrounding the tendency (real or supposed) for developers to fail to explicitly license their code
+
+- title: "Drink from the firehose: release-monitoring.org"
+  speaker: Nick Coghlan
+  start: 2017-01-18 15:40 AEDT
+  end: 2017-01-18 16:25 AEDT
+  room:  Tasman Hall B/C
+  track: 
+  description: |
+    For a long time, the preferred approach to network service security has been the hardened bunker: define a system, deploy it, and patch it promptly when security vulnerabilities in the components used are reported and fixed.
+    However, continuous integration services and automated deployments have opened up a new model: the moving target that grabs new releases of dependencies almost as soon as they are available, runs them through the CI process like any other software change, and then deploys them to production. Even if a new security flaw slips through testing, that's considered better than being exposed to the flaws that were classified as normal bug fixes, but actually represented security issues.
+    release-monitoring.org is a shared community service born out of the Fedora Infrastructure team that monitors for new upstream releases, and emits structured events that can be used to automatically trigger appropriate follow-on action.
+    So if you'd like to learn how to drink from the firehose, this talk's for you!
+
+- title: The Vulkan Graphics API - what it means for Linux
+  speaker: David Airlie
+  start: 2017-01-19 10:40 AEDT
+  end: 2017-01-19 11:25 AEDT
+  room:  Wellington Room 1
+  track: 
+  description: |
+    OpenGL has long been the 3D API used on the Linux platform. However recently the Khronos group released the Vulkan 1.0 standard which covers a new closer to the metal API for 3D graphics programming across multiple operating systems. This talk will provide a brief introduction to the API and how supported the API is under Linux. The speaker will also discuss possible future uses for this new API and the advantages it brings.
+
+- title: Getting into the Rusty Bucket - Lessons from Integrating Rust with Existing C
+  speaker: William Brown
+  start: 2017-01-20 13:20 AEDT
+  end: 2017-01-20 14:05 AEDT
+  room:  Tasman Hall B/C
+  track: 
+  description: |
+    Rust is a modern language developed by Mozilla pursuing the trifecta: Safety, Speed, and Concurrency. With such promise for the future, how can we use this now? We are not always in the beautiful open green fields; we must contend with our existing grunty applications!
+    389 Directory Server is based on code now more than 20 years old. We cannot throw this out and replace it, but we want the benefits Rust gives us - especially for authentication and security critical code.
+    We will explore the challenges of security in engineering, and behaviours of the modern programmer. I will discuss why we have spiraled down a mountain of failure as an engineering discipline - and why we need tools like Rust to validate our work. I will show faults in Directory Server that could have been prevented with safe language techniques. Finally, I will explore the Directory Server plugin interface, where we have the ability to provide pure Rust plugins, allowing safe, fast extensibility to a core piece of systems authentication. This will explore the challenges to build it, and the design patterns needed to make sure that the rewrite of the application in Rust is possible, today.
+
+- title: Designing a Race Car with Open Source Tools
+  speaker: David Chinner
+  start: 2017-01-20 14:15 AEDT
+  end: 2017-01-20 15:00 AEDT
+  room:  Plenary
+  track: 
+  description: |
+    After I ran out of talent and had a high speed encounter with an immovable object in May 2016, I needed to build a new race car. The car I crashed is somewhat unique for many reasons - it's a Locost Clubman. The car has a space frame chassis, based on the original 1957 Lotus 7 designed by Colin Chapman. In the early 1990s, Ron Champion published a Haynes manual titled "Build your own sports car for as little as £250" which was a step by step guide to fabricating and building the entire car. Essentially, it was the source code for the car.
+    Are the open source 3D cad tools capable of building a complex space frame chassis? Can I get an open source finite element analysis software to perform strength and failure analysis and get sane results? Can I design all the parts I need and send them to 3rd parties to get them laser cut, bent, fabricated and delivered to my door? Can I integrate my little CNC milling machine into these tools (i.e. CAM) so I can rapidly fabricate prototypes and iterate designs? If the open source tools exist, is it even possible to make them work together in a sane way? What tools have I had to write myself? What landmines will I step on?
+
+- title: The proper care and feeding of communities and carnivorous plants
+  speaker: Rikki Endsley
+  start: 2017-01-20 14:15 AEDT
+  end: 2017-01-20 15:00 AEDT
+  room:  Boardwalk Gallery
+  track: 
+  description: |
+    In 2016, I adopted my first carnivorous plant, a Venus Fly Trap, which I named Gordon. I quickly discovered that, in addition to his ability to catch the occasional bug and get energy from the sun, Gordon's health was closely connected to the environment and care I provided. In this talk, I'll draw from more than a decade of experience working with open source communities (and a few months of experience keeping Gordon alive) to explain how caring for a Venus Fly Trap is much like caring for a community. Like carnivorous plants, communities can't be left alone to fend for themselves, and they won't explicitly tell you when there is a problem. Communities and carnivorous plants need an energy source, healthy environments, pest control, and occasional maintenance. Whether you're a seasoned community gardener, or just starting to develop your carnivorous plant green thumb, you'll learn practical tips for nurturing healthy roots that grow thriving communities (... or Venus Fly Traps).
+
+

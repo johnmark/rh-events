@@ -1,0 +1,45 @@
+name: RDO Meetups
+type: series
+tags: RDO
+
+talks:
+
+- title: Construcción de artefactos Packer / Dockerfiles / Openstack Heat / Veewee
+  location: México City, MX
+  speaker: Infraestructura como código
+  start: 2017-12-16 14:00 UTC
+  end: 2017-12-16 15:00 UTC
+  description: |
+      México City, MX
+      Construcción de artefactos Packer / Dockerfiles / Openstack Heat / Veewee
+      https://www.meetup.com/Infraestructura-como-codigo/events/245135642/
+
+- title: Bootstrapping your product with no cost with OpenStack and AWS
+  location: Bangalore, IN
+  speaker: Startup Gears
+  start: 2017-12-16 04:30 UTC
+  end: 2017-12-16 05:30 UTC
+  description: |
+      Bangalore, IN
+      Bootstrapping your product with no cost with OpenStack and AWS
+      https://www.meetup.com/Startup-Gears/events/244745128/
+
+- title: OpenStack 2017 December - XMas edition
+  location: Budapest, HU
+  speaker: OpenStack Hungary Meetup Group
+  start: 2017-12-19 09:00 UTC
+  end: 2017-12-19 10:00 UTC
+  description: |
+      Budapest, HU
+      OpenStack 2017 December - XMas edition
+      https://www.meetup.com/OpenStack-Hungary-Meetup-Group/events/245435064/
+
+- title: OpenStack Summit Sydney recap and general meet.
+  location: Perth, AU
+  speaker: Perth OpenStack Meetup
+  start: 2017-12-20 01:30 UTC
+  end: 2017-12-20 02:30 UTC
+  description: |
+      Perth, AU
+      OpenStack Summit Sydney recap and general meet.
+      https://www.meetup.com/Perth-OpenStack-Meetup/events/245464420/

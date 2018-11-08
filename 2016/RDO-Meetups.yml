@@ -1,0 +1,157 @@
+name: RDO Meetups
+type: series
+tags: RDO
+
+talks:
+
+
+- title: OpenStack Wrocław Meetup #4
+  location: Wroclaw, PL
+  speaker: Wroclaw OpenStack Meetup
+  start: 2016-12-12 11:30 UTC
+  end: 2016-12-12 12:30 UTC
+  description: |
+      Wroclaw, PL
+      OpenStack Wrocław Meetup #4
+      https://www.meetup.com/Wroclaw-OpenStack-Meetup/events/235620920/
+
+- title: MN Cloud Computing -- OpenStack Discussion
+  location: Minneapolis, MN
+  speaker: Minnesota Cloud Computing
+  start: 2016-12-12 19:00 UTC
+  end: 2016-12-12 20:00 UTC
+  description: |
+      Minneapolis, MN, US
+      MN Cloud Computing -- OpenStack Discussion
+      https://www.meetup.com/MNCloudComputing/events/235452882/
+
+- title: Auto Scaling & Sentinel
+  location: Fort Collins, CO
+  speaker: Colorado OpenStack
+  start: 2016-12-13 20:00 UTC
+  end: 2016-12-13 21:00 UTC
+  description: |
+      Fort Collins, CO, US
+      Auto Scaling & Sentinel
+      https://www.meetup.com/OpenStack-Colorado/events/235919158/
+
+- title: OpenStack Meetup #6 powered by Windcloud & Perennial AG
+  location: Hamburg, DE
+  speaker: Openstack Hamburg
+  start: 2016-12-13 12:30 UTC
+  end: 2016-12-13 13:30 UTC
+  description: |
+      Hamburg, DE
+      OpenStack Meetup #6 powered by Windcloud & Perennial AG
+      https://www.meetup.com/Openstack-Hamburg/events/235729028/
+
+- title: Let's install DevStack on an Intel NUC and raffle it off!
+  location: Vancouver, BC
+  speaker: Vancouver OpenStack Meetup
+  start: 2016-12-14 21:00 UTC
+  end: 2016-12-14 22:00 UTC
+  description: |
+      Vancouver, BC, CA
+      Let's install DevStack on an Intel NUC and raffle it off!
+      https://www.meetup.com/Vancouver-OpenStack-Meetup/events/235606629/
+
+- title: Monthly Meetup - OpenStack Director Features and Demo
+  location: New York, NY
+  speaker: NYRHUG - New York Red Hat Users Group
+  start: 2016-12-14 18:00 UTC
+  end: 2016-12-14 19:00 UTC
+  description: |
+      New York, NY, US
+      Monthly Meetup - OpenStack Director Features and Demo
+      https://www.meetup.com/NYRHUG-New-York-Red-Hat-Users-Group/events/236116475/
+
+- title: OpenStack and CEPH end of year 2016 meetup
+  location: Amsterdam, NL
+  speaker: Openstack & Ceph User Group Amsterdam
+  start: 2016-12-14 12:30 UTC
+  end: 2016-12-14 13:30 UTC
+  description: |
+      Amsterdam, NL
+      OpenStack and CEPH end of year 2016 meetup
+      https://www.meetup.com/Openstack-Amsterdam/events/236090488/
+
+- title: Open Source Network Virtualization with MidoNet
+  location: San Diego, CA
+  speaker: OpenStack San Diego
+  start: 2016-12-14 21:30 UTC
+  end: 2016-12-14 22:30 UTC
+  description: |
+      San Diego, CA, US
+      Open Source Network Virtualization with MidoNet
+      https://www.meetup.com/OpenStack-SD/events/234275780/
+
+- title: Making Infrastructure Consumable on OpenStack
+  location: Seattle, WA
+  speaker: OpenStack Seattle
+  start: 2016-12-14 22:00 UTC
+  end: 2016-12-14 23:00 UTC
+  description: |
+      Seattle, WA, US
+      Making Infrastructure Consumable on OpenStack
+      https://www.meetup.com/OpenStack-Seattle/events/236095237/
+
+- title: From Newton to Ocata
+  location: Milano, MI
+  speaker: OpenStack Milano
+  start: 2016-12-14 13:00 UTC
+  end: 2016-12-14 14:00 UTC
+  description: |
+      Milano, MI, IT
+      From Newton to Ocata
+      https://www.meetup.com/Meetup-OpenStack-Milano/events/234800766/
+
+- title: OpenStack
+  location: Murcia, ES
+  speaker: Murcia DevOps
+  start: 2016-12-14 13:00 UTC
+  end: 2016-12-14 14:00 UTC
+  description: |
+      Murcia, ES
+      OpenStack
+      https://www.meetup.com/murciadevops/events/235953741/
+
+- title: Let's install DevStack on an Intel NUC and raffle it off!
+  location: Calgary, AB
+  speaker: Calgary OpenStack Meetup
+  start: 2016-12-15 20:00 UTC
+  end: 2016-12-15 21:00 UTC
+  description: |
+      Calgary, AB, CA
+      Let's install DevStack on an Intel NUC and raffle it off!
+      https://www.meetup.com/Calgary-OpenStack-Meetup/events/235761870/
+
+- title: Openstack Intros
+  location: Tampa, FL
+  speaker: Tampa Openstack Meetup
+  start: 2016-12-15 18:00 UTC
+  end: 2016-12-15 19:00 UTC
+  description: |
+      Tampa, FL, US
+      Openstack Intros
+      https://www.meetup.com/Tampa-Openstack-Meetup/events/235151727/
+
+- title: BotFactory Automation for Cloud Infrastructure & Ansible All-In-One on AWS
+  location: Washington, DC
+  speaker: OpenStack DC
+  start: 2016-12-15 18:30 UTC
+  end: 2016-12-15 19:30 UTC
+  description: |
+      Washington, DC, US
+      BotFactory Automation for Cloud Infrastructure & Ansible All-In-One on AWS
+      https://www.meetup.com/OpenStackDC/events/235107128/
+
+- title: OpenStack & OpenContrail in Production Best Practices from a SaaS leader
+  location: Santa Clara, CA
+  speaker: Container Networking and Application Services
+  start: 2016-12-15 21:30 UTC
+  end: 2016-12-15 22:30 UTC
+  description: |
+      Santa Clara, CA, US
+      OpenStack & OpenContrail in Production Best Practices from a SaaS leader
+      https://www.meetup.com/ContainerNetworking/events/235738113/
+

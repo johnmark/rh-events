@@ -1,0 +1,779 @@
+name: FOSDEM
+description: |
+  FOSDEM is a free and non-commercial event organised
+  by the community for the community. The goal is to
+  provide open source software developers and communities
+  a place to meet to:
+
+  * get in touch with other developers and projects;
+  * be informed about the latest developments in the
+    open source world;
+  * attend interesting talks and presentations on
+    various topics by open source project leaders
+    and committers;
+  * to promote the development and the benefits of
+    open source solutions.
+
+  For more details on FOSDEM, see the event website at
+  <https://fosdem.org/2015/>
+location: Brussels, Belgium
+start: 2015-01-31
+end: 2015-02-01
+talks:
+
+- title: 'Ubiquitous performance analysis and system introspection: an introduction
+    to Performance Co-Pilot and SystemTap'
+  speaker: Lukas Berk
+  start: 2015-01-31 17:00 CET
+  end: 2015-01-31 17:50 CET
+  room: Janson
+  track: Performance
+  description: |
+    Performance Co-Pilot is a highly adaptable and established toolkit for
+    those interested in examining the details of system performance.
+    Similarly, Systemtap is a powerful tool for digging deep into the
+    innards of a program. This presentation will go over the basics of the
+    tools, recent developments, and examples.
+
+- title: 'Moving your virtual machines to oVirt with ease: overview of the process
+    of import VMs from different environments into oVirt in light of the upcoming
+    integration with virt-v2v'
+  speaker: Arik Hadas
+  start: 2015-01-31 10:40 CET
+  end: 2015-01-31 11:00 CET
+  room: UD2.120 (Chavanne)
+  track: Infrastructure as a service
+  description: |
+    Suppose you want to import virtual machines you already have into oVirt
+    to enjoy a features-rich open sourced management system. You will soon
+    figure out that the conversion of virtual machines running on different
+    hypervisors or managed by different management systems into oVirt is not
+    an easy task. The next major version of oVirt is going to introduce an
+    integrated process that will simplify import of virtual machines not
+    being managed by oVirt into oVirt. This session gives a heads up for the
+    feature: we will go over the design and see how it solves issues that we
+    had before to provide better way for import virtual machines to oVirt.
+
+- title: GlusterFS - overview & future directions
+  speaker: Niels de Vos
+  start: 2015-01-31 11:40 CET
+  end: 2015-01-31 12:20 CET
+  room: UD2.120 (Chavanne)
+  track: Infrastructure as a service
+  description: |
+    GlusterFS is a distributed scale-out filesystem that runs on commodity
+    hardware. In this session, Niels de Vos will provide an architectural
+    overview of GlusterFS and discuss how its file, object & block
+    interfaces can be used to build a scale-out storage solution for IaaS
+    needs. Details on new features , use cases and interesting challenges
+    with GlusterFS will be provided. As part of this session, Niels will
+    also discuss integration of GlusterFS with other open source ecosystems
+    like OpenStack, oVirt and provide future directions of the GlusterFS
+    project.
+
+- title: oVirt and Gluster hyperconvergence
+  speaker: Federico Simoncelli
+  start: 2015-01-31 12:20 CET
+  end: 2015-01-31 13:00 CET
+  room: UD2.120 (Chavanne)
+  track: Infrastructure as a service
+  description: |
+    This session will cover in detail the ongoing effort of integrating the
+    oVirt virtualization and Gluster storage resources in single commodity
+    boxes that can scale horizontally. The presentation will include the
+    description of the technical challenges encountered, the status of the
+    ongoing effort and the roadmap for the possible future improvements.
+
+    - oVirt virtualization and Gluster storage overview
+    - Architecture, hardware and software setups
+    - Scaling horizontally
+    - Challenges of the oVirt and Gluster Hyperconvergence
+    - Current status and other possible improvements
+    - Roadmap and future additions
+
+- title: 'Leveraging Ceph: Ceph integration in OpenStack, CloudStack, Ganeti ..'
+  speaker: Loic Dachary, Sage Weil
+  start: 2015-01-31 13:00 CET
+  end: 2015-01-31 13:40 CET
+  room: UD2.120 (Chavanne)
+  track: Infrastructure as a service
+  description: |
+    The Ceph storage system is used by many IaaS software. It provides
+    self-healing distributed storage in many forms (block device, file
+    system and object store).
+
+    An overview of the most recent Ceph features will be followed by use
+    cases about how current IaaS stacks could leverage them.
+
+- title: 'Smart VM scheduling in oVirt cluster: deep dive to scheduling service based
+    on probabilistic methods'
+  speaker: Roy Golan
+  start: 2015-01-31 15:40 CET
+  end: 2015-01-31 16:20 CET
+  room: UD2.120 (Chavanne)
+  track: Infrastructure as a service
+  description: |
+    The oVirt project allows efficient management of virtualized
+    datacenters. Deciding what machine should host a certain VM is one of
+    the important functions of the management platform. Unfortunately it is
+    also one of the complex ones, because there can be many rules governing
+    the placement policy and there is a time limit in which a VM has to be
+    started or migration initiated. Till now each VM was considered
+    separately and that caused fragmentation of free resources.
+
+    We are about to present a new solution to this issue in this
+    presentation. We have started a cooperation with the OptaPlanner team
+    that develops an optimization engine based on probabilistic (soft
+    computing) algorithms. This means that oVirt will feed situation updates
+    to an optimization service and continuously receive improved solutions
+    back. It will then use the precomputed results for rebalancing the
+    clusters.
+
+- title: 'What you can do with open source cloud management (and ManageIQ): control
+    all of the things'
+  speaker: John Mark Walker
+  start: 2015-01-31 16:20 CET
+  end: 2015-01-31 17:00 CET
+  room: UD2.120 (Chavanne)
+  track: Infrastructure as a service
+  description: |
+    What is cloud management and why do you need it? This talk explains the
+    security and productivity ramifications of a hybrid cloud
+    infrastructure, and how you can wrangle its various components. You
+    need: comprehensive security, finance/chargeback, automation and
+    orchestration. Here's how to control all of the things.
+
+- title: IaaS beyond the infrastructure
+  speaker: Flavio Percoco
+  start: 2015-01-31 17:40 CET
+  end: 2015-01-31 18:00 CET
+  room: UD2.120 (Chavanne)
+  track: Infrastructure as a service
+  description: |
+    We've been talking about Infrastructure providers for quite a bit
+    already. OpenStack itself started as such an IaaS and then it quickly
+    became a cloud provider. But what does that mean? What is a cloud
+    provider suppose to provide? What's cloud after all?
+
+    Scaling a distributed system goes beyond virtualization, shared storage
+    etc. In order to support on-demand scaling it is necessary to have an
+    easy way to provision and consume the available infrastructure, a way
+    for the services running in it to communicate, etc. Not to mention
+    latency needs, reliability, etc.
+
+    This talk aims to answer the above questions and take a step further
+    down the path of explaining what should be considered essential for
+    nowadays needs, especially when those needs require a `cloud` to be
+    covered.
+
+- title: Upstream Allwinner ARM SoC (A10 / sunxi) support status
+  speaker: Hans de Goede
+  start: 2015-01-31 10:30 CET
+  end: 2015-01-31 10:55 CET
+  room: UB2.252A (Lameere)
+  track: Embedded
+  description: |
+    What is the current status of Allwinner support in upstream u-boot and
+    the kernel, which SoCs are supported, and which features (sound, video,
+    etc.) are supported ?
+
+- title: 'Contributing to Foreman: where and how'
+  speaker: Daniel Lobato
+  start: 2015-01-31 14:00 CET
+  end: 2015-01-31 14:50 CET
+  room: H.1309 (Van Rijn)
+  track: Configuration management
+  description: |
+    The Foreman project and its community is varied, big, and it can take
+    very long to understand what is really going on. Luckily, a group of
+    people is actually working full-time on making it a better project.
+    Contributors often scratch their own itches, and move on.
+
+    This talk is meant to give you an overview about areas of Foreman that
+    badly need help, refactoring, and some of the efforts the Foreman
+    community is doing to mitigate technical debt and keep on improving. In
+    short, we want to highlight our flaws so you can target your efforts to
+    the right place.
+
+- title: 'Valgrind integration in the Eclipse IDE: an overview of the Valgrind plugin'
+  speaker: Lukas Berk
+  start: 2015-01-31 10:30 CET
+  end: 2015-01-31 11:20 CET
+  room: AW1.120
+  track: Valgrind
+  description: |
+    Software development rarely has "spare" time, which often forces
+    developers to stick to the tools they already know. Having any sort of
+    learning curve can be a barrier to entry for debugging and performance
+    tools, even when the payoffs are worth the time invested learning new
+    tools. The Linux Tools Project aims to improve the state of C/C++
+    development on the Eclipse IDE by integrating popular tools, such as
+    Valgrind. This integration allows developers to maintain an environment
+    they're familiar with, yet leverage new development tools.
+
+    This talk is aimed at people of varying experience with the Valgrind
+    tool who have never used it within the Eclipse IDE.
+
+- title: 'How to start hacking on Valgrind by example: easy hacks for Valgrind'
+  speaker: Mark Wielaard
+  start: 2015-01-31 16:00 CET
+  end: 2015-01-31 16:50 CET
+  room: AW1.120
+  track: Valgrind
+  description: |
+    If you always wanted to hack on Valgrind, but haven't yet really looked
+    at the code yet, then this talk is for you. We'll go over the basics of
+    writing a new Valgrind tool. How to add a missing syscall. Show where to
+    start when adding a new x86/amd64 instruction and translating it to VEX
+    IR. After attending this talk, you should be all set to attend the
+    hackaton in the Valgrind devroom at the end of the day.
+
+- title: Querying your datagrid with Lucene, Hadoop and Spark
+  speaker: Gustavo Fernandes
+  start: 2015-01-31 17:20 CET
+  end: 2015-01-31 18:05 CET
+  room: UA2.114 (Baudoux)
+  track: Open source search
+  description: |
+    Key/Value stores rely on a simple data model represented by a map, where
+    each key appears once. Using such a structure does not necessarily mean
+    giving up on query expressiveness and capability. This talk will
+    demonstrate what Infinispan can do to empower your analytics needs, from
+    directly running Lucene Queries in a cluster to Hadoop Map Reduce and
+    Spark.
+
+- title: Hardware switches - the opensource approach
+  speaker: Jiří Pírko
+  start: 2015-01-31 16:30 CET
+  end: 2015-01-31 17:00 CET
+  room: UD2.218A
+  track: Network management and SDN
+  description: |
+    Imagine buying off the shelf switch hardware, install Fedora (or any
+    other distribution) and configure it using standard linux tools. This is
+    not possible at the moment primarily because of lack of unified and
+    consistent platforms and driver interfaces. We are working to change
+    that.
+
+    The current state of support for switch chips in Linux is not good. Each
+    vendor provides userspace binary sdk blob that only works with their
+    chips. Each of this blobs has proprietary APIs. To get switch chips
+    properly supported there's need to introduce a new infrastructure
+    directly into Linux kernel and to work with vendors to adopt it.
+
+    This talk presents the current effort to unify and uphold the Linux
+    networking model across the spectrum of devices which is necessary to
+    make Linux the cornerstone of industrial grade networking. The scope of
+    this talk covers state of art with current implementation of standard
+    commodity switches such as top of rack switches, small home gateway
+    device as well as SR-IOV NIC embedded switches.
+
+    A device model and driver infrastructure will be presented for
+    accelerating the Linux bridge, Linux router, accelerated host virtual
+    switches and flow level offloads when supported by the hardware
+    underneath.
+
+- title: Networkd status update
+  speaker: Tom Gundersen
+  start: 2015-01-31 18:00 CET
+  end: 2015-01-31 18:30 CET
+  room: UD2.218A
+  track: Network management and SDN
+  description: A brief introduction to networkd and an update on recent features
+
+- title: 'NetworkManager v1.0 status update: what happened. where are we. what comes
+    next for NetworkManager'
+  speaker: Thomas Haller
+  start: 2015-01-31 18:30 CET
+  end: 2015-01-31 19:00 CET
+  room: UD2.218A
+  track: Network management and SDN
+  description: |
+    Give a status update on NetworkManager and talk about the current 1.0
+    release
+
+    NetworkManager 1.0 will be released by the time of FOSDEM15.
+
+    Talk shortly the major changes from the last year. Show highlights of
+    1.0 and discuss future plans.
+
+- title: 'C++11 and LibreOffice: the future has arrived (it was about time)'
+  speaker: Michael Stahl
+  start: 2015-01-31 11:20 CET
+  end: 2015-01-31 11:40 CET
+  room: K.3.201
+  track: Open Document editors
+  description: |
+    C++ has evolved quite a bit over the years, and the new C++11 standard
+    finally has usable implementations on all relevant platforms. We aim to
+    give an overview of the current status of C++11 adoption in the
+    LibreOffice project.
+
+- title: Diagnosing performance issues using Thermostat
+  speaker: Mario Torre, Severin Gehwolf
+  start: 2015-01-31 12:00 CET
+  end: 2015-01-31 12:25 CET
+  room: K.4.201
+  track: Java
+  description: |
+    Debugging performance problems can be a daunting task, especially when
+    you are short on time and lack proper tools that integrate nicely with
+    your custom application landscape. Thermostat was designed to answer the
+    most interesting questions related to performance measurement and
+    application monitoring. It takes advantage of performance metrics and
+    serviceability features of OpenJDK to provide a holistic view of the
+    system. In this session, attendees will get a chance to see Thermostat
+    in action as it is used to analyse programs, gather data, and debug
+    issues affecting performance and functionality.
+
+- title: Caciocavallo, or how we ported OpenJDK from embedded to cloud and still liked
+    it
+  speaker: Mario Torre, Roman Kennke
+  start: 2015-01-31 13:00 CET
+  end: 2015-01-31 13:25 CET
+  room: K.4.201
+  track: Java
+  description: |
+    Caciocavallo has been one of the very first external projects to land in
+    the OpenJDK repository and sponsored by the OpenJDK Porters Group. Named
+    after a delicious cheese we're never tired of eating, it had the
+    original purpose of refactoring the AWT peers to allow different
+    implementations to be added to OpenJDK. The project evolved very quickly
+    until it became itself a full implementation of AWT based on Swing with
+    just enough abstraction to allow custom plugging into the Java2D system
+    for rendering. As time passed, this characteristic was used to implement
+    a GUI testing framework running on offscreen buffers to avoid the usual
+    problems of focus stealing and random mouse moving that plague every
+    other GUI testing framework (here everything is emulated!), and finally
+    a full Web based backend to allow application to run remotely but still
+    be visible on the local screen. This talk will cover the progress we
+    have done over the years, we will show how easy is to implement a new
+    backend and how this project could be used to give Wayland support to
+    OpenJDK. We will show the testing framework and finally we will discuss
+    about WebJDK, an idea to give more web oriented functionality to OpenJDK
+    and use the web backend to enable fully cloud based applications.
+
+- title: 'What lies beneath?: lessons learned hacking the OpenJDK interpreter/compilers'
+  speaker: Andrew Haley, Roman Kennke, Andrew Dinn, Christine H Flood
+  start: 2015-01-31 15:30 CET
+  end: 2015-01-31 16:20 CET
+  room: K.4.201
+  track: Java
+  description: |
+    What really happens to your Java code along the way to becoming machine
+    code?
+
+    Red Hat has been developing an almost pauseless GC for OpenJDK which
+    requires adding read barriers to every object access. We've also
+    developed ARM64 versions of both the server and the client compilers.
+    This has given us quite a bit of experience with the internals of the
+    various methods of generating machine code inside the JVM. This talk
+    will start with a brief tour of the various levels of code generation
+    available and then open up the floor for questions from our panel.
+
+- title: 'Concurrent Ruby: low and high-level concurrency abstractions for the Ruby
+    language (discussion of concurrency patterns available and how they''re implemented
+    for ruby)'
+  speaker: Petr Chalupa
+  start: 2015-01-31 13:00 CET
+  end: 2015-01-31 13:45 CET
+  room: K.4.401
+  track: Ruby
+  description: |
+    The concurrent-ruby is a gem which provides a variety of concurrency
+    abstractions at high and low levels. It is an unopinionated toolbox
+    allowing users to pick the right tool for a given concurrent problem.
+    The gem has Agents, Actors, STM and many more.
+
+    The talk will cover: - Overview of the available tools. - Examples of
+    some abstractions. - Java and C specific implementations.
+
+- title: 'Over 9000: the future of JRuby (a talk on JRuby 9000 and where it will take
+    Ruby in the next year)'
+  speaker: Charles Nutter
+  start: 2015-01-31 13:55 CET
+  end: 2015-01-31 14:40 CET
+  room: K.4.401
+  track: Ruby
+  description: |
+    JRuby 9000 represents the biggest-ever leap forward for JRuby. Not only
+    have we caught up on compatibility (9000 will be 2.2-compatible from
+    release), but we've completely redesigned our JVM-based runtime and have
+    opened our codebase up to the JRuby+Truffle research project from Oracle
+    Labs. The changes we've made will make it easier to keep up with MRI on
+    compatibility and give us the potential to run Ruby as fast as Java or
+    C. The entire Ruby world will change over the next year, and JRuby 9000
+    will be leading the way. We'll talk about what Ruby's going to look like
+    once JRuby is "over 9000".
+
+- title: 'Validate your Gerrit patches automaticly using magic hooks: hook framework
+    to test patches as part of Gerrit system'
+  speaker: Eyal Edri
+  start: 2015-02-01 10:00 CET
+  end: 2015-02-01 10:15 CET
+  room: H.2215 (Ferrer)
+  track: Lightning talks
+  description: |
+    Use a hook framework, written in python to create rules to validate and
+    automate tasks in your git/gerrit environment.
+
+- title: 'Fabricate your automated DevOps environment using Python: fabric is your
+    (DevOps) friend'
+  speaker: Eyal Edri
+  start: 2015-02-01 13:40 CET
+  end: 2015-02-01 13:55 CET
+  room: H.2215 (Ferrer)
+  track: Lightning talks
+  description: |
+    Maintaining a devop environment isn't easy, this talk will explain how
+    to use fabric to automate a lot of tasks you're doing and some you
+    havn't thought of even.
+
+- title: 'Under the hood of Docker containers: in flight and at rest'
+  speaker: Vincent Batts
+  start: 2015-02-01 09:00 CET
+  end: 2015-02-01 09:40 CET
+  room: UD2.120 (Chavanne)
+  track: Virtualisation
+  description: |
+    Docker containers are generating excitement because of relatable and
+    recognizable use cases and unique facilitation of solutions. One example
+    of this is easy distribution of the container environment. Docker does
+    this with a particular design of images.
+
+- title: Docker integration in oVirt and IaaS
+  speaker: Federico Simoncelli
+  start: 2015-02-01 09:40 CET
+  end: 2015-02-01 10:20 CET
+  room: UD2.120 (Chavanne)
+  track: Virtualisation
+  description: |
+    This session will present the current status of integration between
+    oVirt, Docker containers and Kubernetes. It will cover the motivations,
+    some of the low level details and ideas for the future. The second part
+    of the presentation will be dedicated to possible future work within
+    oVirt, ideas for the new concept of multi-purpose data-center and an
+    overview of other projects related to Docker and IaaS.
+
+    - Deploying an Application (Old-Fashion and Docker)
+
+    - Ecosystem: Kubernetes and Project Atomic
+    - Current Status of Integration in oVirt
+    - oVirt Docker User-Interface Plugin
+    - Dockerized oVirt Engine
+    - Docker on Virtualization
+    - Possible Future Integration
+    - Managing Containers as VMs
+    - Future Multi-Purpose Data Centers
+    - Other Projects Related to Docker and IaaS
+
+- title: 'Provision and manage Docker containers with Foreman: roll out your applications
+    in containers with ease'
+  speaker: Daniel Lobato
+  start: 2015-02-01 11:00 CET
+  end: 2015-02-01 11:40 CET
+  room: UD2.120 (Chavanne)
+  track: Virtualisation
+  description: |
+    Deploying containers, images with Docker is becoming a big trend.
+    However, large installations of containerized applications are still few
+    and far between, and solutions are either proprietary or they force you
+    to use their own cloud.
+
+    We believe Foreman can fill this space by providing a central space to
+    provision and manage your containers and your network, as we already do
+    with your data center. This provides a great framework for mixed
+    environments where physical machines, vms, and containers are all used
+    in conjunction. Orchestration through Kubernetes is being implemented at
+    the moment.
+
+    Monitoring, deploying, and everything else is possible to do through the
+    web UI or an API, and it's open source, so if you miss any feature, feel
+    free to add it!
+
+- title: 'Observability in KVM: how to troubleshoot virtual machines'
+  speaker: Stefan Hajnoczi
+  start: 2015-02-01 13:40 CET
+  end: 2015-02-01 14:20 CET
+  room: UD2.120 (Chavanne)
+  track: Virtualisation
+  description: |
+    KVM is the most popular hypervisor deployed with OpenStack and is also
+    often used with libvirt in non-cloud scenarios. With multiple layers of
+    software between the user and the virtual machine, how does one
+    troubleshoot failures and performance issues?
+
+    This presentation covers tools and techniques for observing virtual
+    machines with the KVM hypervisor. It gives you a mental model of KVM's
+    architecture so you'll know how to get to the bottom of questions about
+    virtual machine behavior and performance.
+
+    Areas covered include guest CPU activity, RAM, disk I/O, network
+    traffic, and the QEMU monitor. Examples are based on real-life scenarios
+    often encountered by KVM users.
+
+- title: Utilizing NUMA architecture in oVirt
+  speaker: Doron Fediuck
+  start: 2015-02-01 16:20 CET
+  end: 2015-02-01 16:40 CET
+  room: UD2.120 (Chavanne)
+  track: Virtualisation
+  description: |
+    For several years now, the oVirt project is leveraging KVM and relevant
+    technologies (ksm, etc) in data center virtualizations. Being a mature
+    and feature reach, oVirt takes another step forward with introducing
+    NUMA architecture support which will allow better utilization of
+    hypervisors in advanced virtual data centres. Different NUMA
+    implementations and insights on use cases will allow participants to
+    gain more knowledge on how to optimize their existing hypervisors in the
+    virt world.
+
+- title: 'SCL for bleeding edge stacks on enterprise: find out how to deliver bleeding
+    edge, flexible development stacks on stable enterprise platform using Software
+    Collections'
+  speaker: Honza Horak
+  start: 2015-02-01 10:00 CET
+  end: 2015-02-01 10:30 CET
+  room: H.1302 (Depage)
+  track: Distributions
+  description: |
+    Learn how to provide bleeding edge features on stable platform using
+    Software Collections that allow you to enjoy different versions of a
+    package or whole application stack on one machine, separately for every
+    process and without influencing the rest of the system. The Software
+    Collections technology is more open than ever before and developed in
+    cooperation with CentOS now. Learn how to use it in practice, what
+    projects use them already and what are the recent changes in the
+    concept.
+
+- title: 'What''s new in systemd, 2015 edition: what''s new in the systemd world,
+    and what''s coming next'
+  speaker: Lennart Poettering
+  start: 2015-02-01 11:30 CET
+  end: 2015-02-01 12:25 CET
+  room: H.1302 (Depage)
+  track: Distributions
+  description: |
+    systemd is now a core component of most major distributions. In this
+    talk I want to give an overview over everything new in the systemd
+    project over the last year, and what to expect over the next year.
+
+- title: 'Retooling Fedora: a retrospective on Fedora 21 (and looking to 22)'
+  speaker: Stephen Gallagher, Matthew Miller
+  start: 2015-02-01 12:30 CET
+  end: 2015-02-01 13:20 CET
+  room: H.1302 (Depage)
+  track: Distributions
+  description: |
+    Fedora 21 marked the first phase of the Fedora.next Initiative, an
+    umbrella concept for a reimagining of how Fedora will operate in its
+    second decade. This talk will focus on the switch to a Product-based
+    model, the reasons behind it and the challenges (both technical and
+    social) that we faced in shipping Fedora 21.
+
+    The session will be broken into approximately 25-30 minutes of lecture
+    lightly covering a variety of topics including release-engineering, new
+    feature development and socialization of ideas.
+
+    After the talk, the session will be opened up to a Q&A session with the
+    audience.
+
+- title: OpenStack on Fedora & CentOS
+  speaker: Haïkel Guémar
+  start: 2015-02-01 13:25 CET
+  end: 2015-02-01 13:55 CET
+  room: H.1302 (Depage)
+  track: Distributions
+  description: |
+    This talk will describe the state of OpenStack packaging on Fedora &
+    CentOS through the project RDO.
+
+    Openstack is a big player in the FOSS IaaS field, yet, it's still a
+    challenge to package it and integrate it into major GNU/Linux Distros.
+    Here, we'll see how it is packaged and maintained in Fedora/CentOS and
+    what are the plans in the near future.
+
+- title: 'CentOS (community) infra revealed: aka the joy of running on donated machines'
+  speaker: Fabian Arrotin
+  start: 2015-02-01 14:50 CET
+  end: 2015-02-01 15:35 CET
+  room: H.1302 (Depage)
+  track: Distributions
+  description: |
+    CentOS Project exists now for more than 10 years now, and some people
+    are wondering how the CentOS.org Infra is managed. We'll explain all the
+    tools we use to maintain that infra, but also the constraints we have
+    due to the fact that our infra is spread around the world on
+    community/donated machines, without SLA and disappearing without
+    notification. We'd like to also not only present how we run the infra,
+    from a community perspective, but a real discussion with other
+    distributions (round-table discussion ? ) about those common issues, and
+    how to solve those
+
+- title: 'The CentOS storage SIG and GlusterFS: challenges, solutions and how GlusterFS
+    is fitting in storage SIG'
+  speaker: Kaleb Keithley, Lalatendu Mohanty
+  start: 2015-02-01 16:15 CET
+  end: 2015-02-01 17:00 CET
+  room: H.1302 (Depage)
+  track: Distributions
+  description: |
+    GlusterFS is a scale out storage solution which has wide range of uses
+    cases.
+
+    GlusterFS is one of the founding members of Storage SIG. We have been
+    able to successfully bootstrap GlusterFS in the Storage SIG. Relevant
+    RPMs have been build for the SIG using the new CentOS build system.
+    During the last couple of months of bootstrapping GlusterFS in the
+    storage SIG we have faced some technical challenges which will be
+    applicable to other SIGs (current and Future). During this talk we will
+    share our experiences and discuss the technical challenges GlusterFS
+    faced, how we solved it and the thought process around it. In this talk
+    we will also talk about how Storage SIG is trying to give best upstream
+    experience to community/users.
+
+- title: 'Software isolation in Linux: as used in the development of OpenConnect VPN
+    server'
+  speaker: Nikos Mavrogiannopoulos
+  start: 2015-02-01 09:00 CET
+  end: 2015-02-01 09:25 CET
+  room: AW1.120
+  track: Security devroom
+  description: |
+    For the development of openconnect VPN server a decision to
+    compartmentalize the server was taken, in order to protect any sensitive
+    values exchanged, ranging from the user transferred data, to the data
+    used during the authentication process. This talk will summarize the
+    issues faced during that development that relate to software isolation.
+    That would cover issues with protecting the server's keys via TLS, the
+    client-side authentication of TLS, and PAM authentication, and how they
+    were solved.
+
+- title: 'Sustaining the zero assembler port in OpenJDK: an inside perspective of
+    CPU specific issues'
+  speaker: Severin Gehwolf
+  start: 2015-02-01 10:00 CET
+  end: 2015-02-01 10:25 CET
+  room: K.4.201
+  track: Java
+  description: |
+    OpenJDK comes with a zero assembler port called Zero. Back in 2009 when
+    Zero was originally developed by Gary Benson, OpenJDK was available only
+    on x86, x86\_64 and SPARK. Despite recent JIT ports, such as the AArch64
+    and ppc/aix port, Zero still remains relevant for many Linux
+    distributions. For example, at Red Hat we build and use the OpenJDK zero
+    variant on PPC/PPC64 and s390/s390x. What's more it's a useful tool for
+    getting new JIT ports built from source using free software.
+
+    This talk will give a brief summary what Zero is and how it works. It
+    will cover some of the recently discovered issues with sustaining the
+    Zero port, how we try to catch them early and it will explain our
+    experience with pushing fixes upstream. There will also be examples how
+    this effort benefits the OpenJDK ecosystem as a whole.
+
+- title: Life in the trenches
+  speaker: Andrew Haley
+  start: 2015-02-01 11:00 CET
+  end: 2015-02-01 11:50 CET
+  room: K.4.201
+  track: Java
+  description: |
+    We've been working on OpenJDK for a long time now and we've gained a lot
+    of experience working on the code itself and, perhaps more importantly,
+    working with the Java team inside Oracle. This talk is about our
+    experiences trying make one of the largest ever external contributions
+    to OpenJDK, the AArch64 port.
+
+    I'll talk about how the OpenJDK contribution process works, and how it
+    doesn't work, and how important it is to gain the trust of people inside
+    Oracle's Java team. I'll discuss the strange asymmetry of being an
+    external contributor to a project but not being able to know all of what
+    is going on. I'll try my best to explain the baffling role of Projects
+    and JEPs. I'll speculate about the future of OpenJDK and how it must
+    change as more people outside Oracle contribute significant slabs of
+    code, and how we must have more external patch reviewers.
+
+    Finally, I'll open up the floor for discussion. I'm sure we'll have a
+    lot to talk about.
+
+- title: 'InvokeBinder: literal programming for method handles'
+  speaker: Charles Nutter
+  start: 2015-02-01 12:00 CET
+  end: 2015-02-01 12:25 CET
+  room: K.4.201
+  track: Java
+  description: |
+    As one of the earliest adopters of Method Handles, I've had to build
+    many of my own tools. InvokeBinder is one of them, providing a literal
+    (or fluent) API for Method Handles that allows site-forward adaptation,
+    name-based argument list manipulation, and many bonuses usually too
+    complicated to write by hand. I'd like to demonstrate its features and
+    enlist others to help me improve it.
+
+- title: Shenandoah - project overview
+  speaker: Roman Kennke, Christine H Flood
+  start: 2015-02-01 12:30 CET
+  end: 2015-02-01 13:20 CET
+  room: K.4.201
+  track: Java
+  description: |
+    Garbage Collection pauses make it hard for Java applications to meet
+    quality of service guarantees. No matter how fast your application
+    processes requests, a 30 second GC pause is going to ruin any guarantees
+    you might want to make.
+
+    Shenandoah is a new GC algorithm designed to address this issue. We take
+    a simple approach that allows us to do more work while your Java program
+    is running so we can substantially reduce the time the JVM is paused.
+    Our goal is to be able to garbage collect 100gb+ heaps in under 10ms.
+
+    This talk will focus on the current status of the project, the goals
+    we've met so far, and what we are hoping to achieve in the coming year.
+    We might even share some performance numbers.
+
+- title: OpenJDK adoption group Q&A
+  speaker: Mario Torre, Martijn Verburg, Dalibor Topić, Daniel Bryant, Mani Sarkar
+  start: 2015-02-01 15:30 CET
+  end: 2015-02-01 15:55 CET
+  room: K.4.201
+  track: Java
+  description: |
+    There's a ton of stuff going on in OpenJDK, projects, repositories, bug
+    database, experiments. This is a lot of potential fun, but the entrance
+    barrier for newcomers is extremely high, and it's easy to get lost and
+    not enjoy the fun anymore. In order to help people wanting to contribute
+    keep track of this intricate forest of development and find their way
+    out, the Adoption Group was created
+    (http://openjdk.java.net/groups/adoption/).
+
+    This session is an exchange between few of the hackers directly involved
+    with the Adoption Group and the public. We will indeed discuss some of
+    the projects we are currently involved with - like the planned global
+    hack days for jsonp, jigsaw and tools that use jigsaw and http 2.0 with
+    language interoperability - but above all we will answer questions the
+    audience may have in relation to getting involved with OpenJDK, both
+    from a technical perspective and a social one, so that next year you can
+    sit together with us helping even more people to jump on the fun!
+
+    If you need help organising your next hackday, or you are completelylost
+    tying to get started with OpenJDK, this is the session for you!
+
+- title: Meet the governing board
+  speaker: Mark Reinhold, Andrew Haley, Georges Saab
+  start: 2015-02-01 16:00 CET
+  end: 2015-02-01 17:00 CET
+  room: K.4.201
+  track: Java
+  description: Meet the OpenJDK Governing Board, Q&A session
+
+- title: Replacing Xorg input-drivers with libinput
+  speaker: Hans de Goede
+  start: 2015-02-01 15:00 CET
+  end: 2015-02-01 15:50 CET
+  room: K.4.601
+  track: Graphics
+  description: |
+    This presentation will discuss the plans to move Xorg to use libinput
+    too through an input driver called xf86-input-libinput, as well as the
+    status of this move. xf86-input-libinput is scheduled to be the default
+    Xorg input driver for Fedora 22.

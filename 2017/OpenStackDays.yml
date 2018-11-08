@@ -1,0 +1,89 @@
+name: OpenStack Days
+type: series
+tags: RDO
+
+talks:
+
+- title: OpenStack Days Tokyo
+  location: Tokyo, JP
+  speaker: OpenStack Tokyo
+  start: 2017-07-20 08:00 JST
+  end: 2017-07-21 17:00 JST
+  description: |
+    OpenStack Days Tokyo, at the Toranomon Hills Forum. More details
+    at http://openstackdays.com/en/
+
+- title: OpenStack Days China
+  location: Beijing, CN
+  speaker: OpenStack China
+  start: 2017-07-24 08:00 CST
+  end: 2017-07-25 17:00 CST
+  description: |
+    July 24th and 25th at the Chinal National Convention Center,
+    Beijing.  More details at http://openstackdaychina.org/
+ 
+- title: OpenStack Days Benelux
+  location: Bussum, NL
+  speaker: OpenStack Benelux
+  start: 2017-09-14 09:00 WET
+  end: 2017-09-14 18:00 WET
+  description: |
+    Details at http://www.openstack.nl/en/events/
+
+- title:  OpenStack Days UK
+  location: London, GB
+  speaker: OpenStack London
+  start: 2017-09-26 09:00 GMT
+  end: 2017-09-26 18:00 GMT
+  description: |
+    Details at https://openstackdays.uk/2017/
+
+- title: OpenStack Days Italy
+  location: Milan, IT
+  speaker: OpenStack Italy
+  start: 2017-09-28 09:00 WET
+  end: 2017-09-29 18:00 WET
+  description: |
+    Details at http://openstackday.it/
+
+- title: OpenStack Days Turkey
+  location: Istanbul, TR
+  speaker: OpenStack Turkey
+  start: 2017-10-17 09:00 WET
+  end: 2017-10-17 18:00 WET
+  description: |
+    Details at http://www.openstackdaysistanbul.com/
+
+- title: OpenStack Days Nordic
+  location: Copenhagen, DK
+  speaker: OpenStack Denmark
+  start: 2017-10-18 09:00 WET
+  end: 2017-10-19 18:00 WET
+  description: |
+    Details at http://openstacknordic.org/copenhagen2017/
+
+- title: OpenStack Days Canada
+  location: Ottawa, CA
+  speaker: OpenStack Canada
+  start: 2017-10-19 09:00 EST
+  end: 2017-10-19 18:00 EST
+  description: |
+    Details at http://www.openstackcanada.com/
+
+- title: OpenStack Days France
+  location: Paris, FR
+  speaker: OpenStack France
+  start: 2017-11-21 09:00 WET
+  end: 2017-11-21 18:00 WET
+  description: |
+    Details at http://www.openstackdayfrance.fr/ 
+
+- title: OpenStack Days Germany
+  location: Potsdam, DE
+  speaker: OpenStack Germany
+  start: 2017-12-08 09:00 EST
+  end: 2017-12-09 18:00 EST
+  description: |
+    Details at https://www.openstack-dach.org/
+
+

@@ -1,0 +1,27 @@
+name: Fossetcon 2014
+location: Orlando, FL
+start: 2014-09-11
+end: 2014-09-13
+description: |
+    Fossetcon is not a GNU/Linux conference, nor is it a *BSD conference. 
+    Fossetcon can be more described as a *nix(Unix like) conference that focuses
+    primarily on Free and Open Source Software and the systems that run it -
+    whether it be hardware or software. We are calling all FOSS, FLOSS, and OSS
+    Developers, Students, Teachers, Systems Administrators, Hardware Hackers,
+    Enthusiasts, Newbies and Trolls(trolls need love too) to come out and
+    participate in Fossetcon 2014 in Orlando, FL.
+
+    For more details on Fossetcon, see the event website at
+    <http://fossetcon.org/2014/>
+
+talks:
+
+- title: Software Collections on CentOS
+  speaker: Jim Perrin
+  start: 2014-09-12 4:20 EDT
+  end: 2013-09-12 5:00 EDT
+  description: |
+    If you need to run multiple versions of Python, Ruby, MySQL or something other
+    than the default system tools, you may not have many options. Developers and
+    system administrators need more flexibility. This presentation will show how
+    Software Collections can be used to accomplish this task.
